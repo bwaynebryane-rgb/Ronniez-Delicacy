@@ -1,94 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ronniez Delicacy - Order Online</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ronniez Delicacy - Mbuzi Choma, Catering & Cakes in Rongai</title>
 <style>
-body{font-family:Arial;margin:0;background:#fff8f0;text-align:center;padding-bottom:10px}
-header{background:#e67e22;color:white;padding:25px 15px}
-header h1{margin:0;font-size:30px}
-.btn{display:block;margin:10px 20px;padding:15px;border-radius:10px;color:white;text-decoration:none;font-size:19px;font-weight:bold}
-.call{background:#e67e22}
-.wa{background:#25D366}
-.item{background:white;margin:12px;padding:15px;border-radius:15px;text-align:left;display:flex;justify-content:space-between;align-items:center}
-.item b{font-size:17px}
-button{background:#e67e22;color:white;border:none;padding:10px 15px;border-radius:10px;font-size:16px}
-.addAll{background:#333;color:white;border:none;padding:15px;border-radius:10px;font-size:18px;font-weight:bold;width:90%;margin:10px}
-#cart{background:#222;color:white;padding:20px;margin:15px;border-radius:15px}
-img{width:90%;max-width:400px;border-radius:15px;margin:10px}
-.totalBox{background:#fff3e0;border:2px dashed #e67e22;margin:15px;padding:15px;border-radius:15px}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#fff8f0;color:#333}
+header{background:#4a1a00;color:#fff;padding:20px;text-align:center;position:sticky;top:0;z-index:10}
+header h1{font-size:30px}
+header h1 span{color:#ff9f00}
+.hero{background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=900');background-size:cover;background-position:center;color:#fff;text-align:center;padding:60px 20px}
+.hero h2{font-size:32px}
+.hero p{margin:15px 0;font-size:18px}
+.btn{display:inline-block;background:#ff6b00;color:#fff;padding:14px 28px;border-radius:30px;text-decoration:none;font-weight:bold;margin:5px}
+.btn2{background:#25D366}
+section{padding:25px 18px;max-width:950px;margin:auto}
+h3{text-align:center;font-size:26px;margin-bottom:15px}
+.cat{display:flex;gap:10px;overflow-x:auto;padding-bottom:10px;justify-content:center}
+.cat button{white-space:nowrap;background:#fff;border:2px solid #ff6b00;padding:10px 18px;border-radius:25px;cursor:pointer;font-weight:bold}
+.cat button.active{background:#ff6b00;color:#fff}
+.menu{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.card{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.08)}
+.card img{width:100%;height:150px;object-fit:cover}
+.card div{padding:15px}
+.price{color:#ff6b00;font-weight:bold;font-size:19px}
+.card button{width:100%;background:#111;color:#fff;border:none;padding:12px;border-radius:10px;margin-top:10px;cursor:pointer;font-weight:bold}
+.cater{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.cater-card{background:#fff;border:2px solid #ffcc99;border-radius:18px;padding:20px;text-align:center}
+.cater-card b{font-size:19px}
+.cater-card p{color:#777;font-size:14px;margin:8px 0}
+.cater-card .price{font-size:24px}
+.cater-card button{background:#ff6b00;color:#fff;border:none;padding:12px 20px;border-radius:25px;font-weight:bold;cursor:pointer;margin-top:10px}
+.cart{position:fixed;bottom:15px;left:15px;right:15px;background:#111;color:#fff;padding:15px;border-radius:15px;display:flex;justify-content:space-between;align-items:center;z-index:20}
+.cart button{background:#25D366;color:#fff;border:none;padding:12px 20px;border-radius:25px;font-weight:bold;cursor:pointer}
+.order{background:#fff3e0;border-radius:20px;padding:22px;text-align:center}
+.order input,.order select,.order textarea{width:100%;padding:13px;margin:8px 0;border-radius:10px;border:1px solid #ddd}
+.order button{background:#ff6b00;color:#fff;border:none;padding:15px;width:100%;border-radius:30px;font-size:17px;font-weight:bold;cursor:pointer}
+footer{background:#4a1a00;color:#fff;text-align:center;padding:20px}
+@media(max-width:600px){.menu,.cater{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
+<header><h1>RONNIEZ <span>DELICACY</span></h1><p>🐐 Mbuzi Choma • 🍽️ Catering • 🎂 Cakes | Rongai</p></header>
+<div class="hero"><h2>Mbuzi Choma. Buffet. Cakes.</h2><p>Best Catering in Rongai. We cook at your event - you enjoy!</p><a class="btn" href="#catering">🔥 Catering Prices</a><a class="btn btn2" href="https://wa.me/254700000000?text=Hi%20Ronniez%20Delicacy!%20I%20want%20to%20book%20catering">📱 Book on WhatsApp</a></div>
 
-<header>
-<h1>🔥 RONNIEZ DELICACY</h1>
-<p>Nyama Choma & Chef Services - Rongai</p>
-<p>Chef Ronnie - 0713 585091</p>
-</header>
-
-<a class="btn call" href="tel:+254713585091">📞 Call: 0713 585091</a>
-<a class="btn wa" href="https://wa.me/254713585091?text=Hi%20Ronniez!%20I%20want%20to%20order">💬 Order on WhatsApp</a>
-
-<h2>👨‍🍳 Meet Chef Ronnie</h2>
-<img src="chef1.jpg">
-<img src="chef2.jpg">
-<p>Real fire. Real flavour. Cooked on live charcoal in Rongai.</p>
-
-<h2>🍖 Our Menu - Tap Add</h2>
-<div id="menu"></div>
-
-<div class="totalBox">
-<h2>🎉 FULL PLATTER - ALL DISHES</h2>
-<p>Goat (800) + Beef (700) + Chicken (900) + Mutura (200) + Ugali+Sukuma (250) + Chips+Sausage (350)</p>
-<h2 style="color:#e67e22;">TOTAL COST OF ALL DISHES: Ksh 3,200</h2>
-<button class="addAll" onclick="addAll()">🛒 Add FULL Platter - Ksh 3,200</button>
-<p>Perfect for family, party, or event!</p>
+<section id="catering">
+<h3>🔥 Catering & Barbecue Labour</h3>
+<p style="text-align:center;color:#777">Book for Weddings, Birthdays, Ruracio, Graduation, Church Events</p><br>
+<div class="cater">
+<div class="cater-card"><div style="font-size:40px">🐐</div><b>Full Mbuzi Barbecue Labour</b><p>We roast full mbuzi for you at your event. Labour only.</p><div class="price">KSh 3,000</div><button onclick="bookService('Full Mbuzi Barbecue Labour - KSh 3000')">Book This →</button></div>
+<div class="cater-card"><div style="font-size:40px">🔥</div><b>Full Day All Barbecue Labour</b><p>Full day choma - mbuzi, chicken, sausages, all day.</p><div class="price">KSh 5,000</div><button onclick="bookService('Full Day All Barbecue Labour - KSh 5000')">Book This →</button></div>
+<div class="cater-card"><div style="font-size:40px">🍽️</div><b>Full Buffet With Beverages</b><p>Full buffet + drinks, per person. Complete setup.</p><div class="price">KSh 1,200 <small>/person</small></div><button onclick="bookService('Full Buffet with Beverages - KSh 1200 per person')">Book This →</button></div>
+<div class="cater-card"><div style="font-size:40px">🥘</div><b>Half Buffet</b><p>Half buffet, no beverages. Perfect for small events.</p><div class="price">KSh 800 <small>/person</small></div><button onclick="bookService('Half Buffet - KSh 800 per person')">Book This →</button></div>
+<div class="cater-card"><div style="font-size:40px">📅</div><b>Weekly Meal Plan Labour</b><p>We cook your weekly meals. Labour for the week.</p><div class="price">KSh 2,000</div><button onclick="bookService('Weekly Meal Plan Labour - KSh 2000')">Book This →</button></div>
+<div class="cater-card"><div style="font-size:40px">🎉</div><b>Events Below 20 Pax</b><p>Small events, below 20 people. Full labour.</p><div class="price">KSh 5,000</div><button onclick="bookService('Events Below 20 Pax - KSh 5000 labour')">Book This →</button></div>
 </div>
+</section>
 
-<div id="cart">
-<h3>🛒 Your Cart: <span id="count">0</span> items</h3>
-<p id="list">No items yet - tap + Add above</p>
-<h3 style="font-size:24px;">TOTAL TO PAY: Ksh <span id="total">0</span></h3>
-<a class="btn wa" id="orderBtn" href="#">💬 Send This Order to WhatsApp - 0713 585091</a>
-<p>📍 Rongai, Langata | Daily 10am - 10pm</p>
-<p>📞 0713 585091</p>
-</div>
+<section id="menu">
+<h3>🍽️ Daily Menu</h3>
+<div class="cat"><button class="active" onclick="filterMenu('all',this)">All</button><button onclick="filterMenu('cakes',this)">🎂 Cakes</button><button onclick="filterMenu('food',this)">🍲 Food</button><button onclick="filterMenu('snacks',this)">🥟 Snacks</button><button onclick="filterMenu('drinks',this)">🥤 Drinks</button></div><br>
+<div class="menu" id="menuList"></div>
+</section>
 
-<footer style="background:#333;color:white;padding:20px;margin-top:10px;">
-<p>Ronniez Delicacy © 2026 | Chef Ronnie | 0713 585091</p>
-</footer>
+<section><div class="order"><h3>🚀 Book Catering / Order Food</h3><input id="name" placeholder="Your Name"><input id="phone" placeholder="Your Phone - 07XX XXX XXX"><input id="location" placeholder="Event Location in Rongai"><textarea id="notes" placeholder="What do you want? e.g. Full Mbuzi for 30 people on Saturday"></textarea><input id="date" type="date"><select id="delivery"><option>Delivery - KSh 200 (Rongai)</option><option>Pickup - Free</option><option>We Cook At Your Event</option></select><button onclick="sendOrder()">Send Booking on WhatsApp →</button></div></section>
 
+<section style="text-align:center;line-height:1.9"><h3>📍 Find Us</h3><b>Ronniez Delicacy - Ongata Rongai</b><br>Nairobi, Kenya - 00511<br>Open Daily: 7:00 AM - 9:00 PM<br>Call / WhatsApp: 0700 000 000<br><br><a class="btn" href="https://maps.google.com/?q=Ongata+Rongai">📍 Get Directions</a></section>
+
+<div class="cart"><div><b>🛒 Cart: <span id="cartCount">0</span> items</b><br><small>Total: KSh <span id="cartTotal">0</span></small></div><button onclick="checkout()">Checkout →</button></div>
+<footer><p><b>RONNIEZ DELICACY</b> © 2026 - Rongai, Nairobi</p><p>Made by Brian - Web Developer in Rongai</p></footer>
 <script>
-let cart = [];
-let items = [
-{name:"Nyama Choma - Goat (1 Kg)", price:800},
-{name:"Nyama Choma - Beef (1 Kg)", price:700},
-{name:"Chicken Choma - Full", price:900},
-{name:"Mutura", price:200},
-{name:"Ugali + Sukuma", price:250},
-{name:"Chips + Sausage", price:350},
+let items=[
+{name:"Vanilla Cake 1kg",cat:"cakes",price:1500,desc:"Soft, fresh, with cream",img:"https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500"},
+{name:"Chocolate Cake 1kg",cat:"cakes",price:1800,desc:"Rich chocolate, best seller",img:"https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=500"},
+{name:"Pilau + Beef",cat:"food",price:350,desc:"Hot pilau, beef stew, kachumbari",img:"https://images.unsplash.com/photo-1512058564366-18510be2db19?w=500"},
+{name:"Chapati + Beef",cat:"food",price:300,desc:"2 soft chapatis + beef",img:"https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500"},
+{name:"Mandazi (4 pcs)",cat:"snacks",price:100,desc:"Fresh, soft, sweet",img:"https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500"},
+{name:"Samosa (3 pcs)",cat:"snacks",price:150,desc:"Beef / Vegetable, crispy",img:"https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500"},
+{name:"Donuts (3 pcs)",cat:"snacks",price:200,desc:"Glazed, chocolate, vanilla",img:"https://images.unsplash.com/photo-1551024601-bec78aea704b?w=500"},
+{name:"Fresh Juice 500ml",cat:"drinks",price:200,desc:"Mango, Passion, Orange",img:"https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=500"},
 ];
-let menuDiv = document.getElementById("menu");
-items.forEach((it,i)=>{
-  menuDiv.innerHTML += `<div class="item"><div><b>${it.name}</b><br>Ksh ${it.price}</div><button onclick="add(${i})">+ Add</button></div>`;
-});
-function add(i){ cart.push(items[i]); update(); }
-function addAll(){
-  items.forEach(it=>cart.push(it));
-  update();
-  alert("Full Platter Added! Total = Ksh 3,200");
-}
-function update(){
-  let total = 0; let txt = "";
-  cart.forEach(c=>{ total += c.price; txt += c.name + " - Ksh " + c.price + "<br>"; });
-  document.getElementById("count").innerText = cart.length;
-  document.getElementById("total").innerText = total;
-  document.getElementById("list").innerHTML = txt || "No items yet - tap + Add above";
-  let msg = "Hi Ronniez! I want to order:%0A" + cart.map(c=>"- "+c.name+" Ksh "+c.price).join("%0A") + "%0A%0A*TOTAL TO PAY: Ksh " + total + "*%0A%0AName:%0ALocation:";
-  document.getElementById("orderBtn").href = "https://wa.me/254713585091?text=" + msg;
-}
+let cart=[];
+function render(filter='all'){let list=items.filter(i=>filter==='all'||i.cat===filter);document.getElementById('menuList').innerHTML=list.map(it=>`<div class="card"><img src="${it.img}"><div><b>${it.name}</b><p>${it.desc}</p><div class="price">KSh ${it.price}</div><button onclick="addToCart('${it.name}',${it.price})">+ Add to Cart</button></div></div>`).join('');}
+function filterMenu(cat,btn){document.querySelectorAll('.cat button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');render(cat);}
+function addToCart(name,price){cart.push({name,price});document.getElementById('cartCount').innerText=cart.length;let total=cart.reduce((s,c)=>s+c.price,0);document.getElementById('cartTotal').innerText=total;alert(name+" added! Total: KSh "+total);}
+function checkout(){if(cart.length===0){alert('Cart empty!');return;}let total=cart.reduce((s,c)=>s+c.price,0);let list=cart.map(c=>c.name+" - KSh "+c.price).join(', ');window.open("https://wa.me/254700000000?text="+encodeURIComponent("Hi Ronniez! My order: "+list+" | Total: KSh "+total),"_blank");}
+function bookService(s){window.open("https://wa.me/254700000000?text="+encodeURIComponent("Hi Ronniez Delicacy! I want to book: "+s+" | What is my event date?"),"_blank");}
+function sendOrder(){let name=document.getElementById('name').value;let phone=document.getElementById('phone').value;let loc=document.getElementById('location').value;let notes=document.getElementById('notes').value;let date=document.getElementById('date').value;let del=document.getElementById('delivery').value;if(!name||!phone){alert('Please fill Name and Phone');return;}let msg="Hi Ronniez! Booking: "+notes+" | Date: "+date+" | Name: "+name+" | Phone: "+phone+" | Location: "+loc+" | "+del;window.open("https://wa.me/254700000000?text="+encodeURIComponent(msg),"_blank");}
+render();
 </script>
-
 </body>
 </html>
