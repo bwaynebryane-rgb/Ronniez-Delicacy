@@ -86,7 +86,7 @@ function render(filter='all'){let list=items.filter(i=>filter==='all'||i.cat===f
 function filterMenu(cat,btn){document.querySelectorAll('.cat button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');render(cat);}
 function addToCart(name,price){cart.push({name,price});document.getElementById('cartCount').innerText=cart.length;let total=cart.reduce((s,c)=>s+c.price,0);document.getElementById('cartTotal').innerText=total;alert(name+" added! Total: KSh "+total);}
 function checkout(){if(cart.length===0){alert('Cart empty!');return;}let total=cart.reduce((s,c)=>s+c.price,0);let list=cart.map(c=>c.name+" - KSh "+c.price).join(', ');window.open("https://wa.me/254700000000?text="+encodeURIComponent("Hi Ronniez! My order: "+list+" | Total: KSh "+total),"_blank");}
-function bookService(s){window.open("https://wa.me/254700000000?text="+encodeURIComponent("Hi Ronniez Delicacy! I want to book: "+s+" | What is my event date?"),"_blank");}
+function bookService(s){window.open("https://wa.me/254713585091?text="+encodeURIComponent("Hi Ronniez Delicacy! I want to book: "+s+" | What is my event date?"),"_blank");}
 function sendOrder(){let name=document.getElementById('name').value;let phone=document.getElementById('phone').value;let loc=document.getElementById('location').value;let notes=document.getElementById('notes').value;let date=document.getElementById('date').value;let del=document.getElementById('delivery').value;if(!name||!phone){alert('Please fill Name and Phone');return;}let msg="Hi Ronniez! Booking: "+notes+" | Date: "+date+" | Name: "+name+" | Phone: "+phone+" | Location: "+loc+" | "+del;window.open("https://wa.me/254700000000?text="+encodeURIComponent(msg),"_blank");}
 render();
 </script>
